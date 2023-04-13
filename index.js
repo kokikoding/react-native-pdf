@@ -13,10 +13,10 @@ import {
     requireNativeComponent,
     View,
     Platform,
-    ViewPropTypes,
     StyleSheet,
     Image
 } from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 import { ProgressBar } from '@react-native-community/progress-bar-android'
 import { ProgressView } from '@react-native-community/progress-view'
